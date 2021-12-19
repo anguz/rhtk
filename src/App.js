@@ -1,11 +1,16 @@
 import './App.css';
-import Loading from './components/Loading';
+import LoadingOriginal from './components/Loading';
+import Loading from './components/LoadingHook';
 
 function App() {
 
   // Se agrega estilo para el componente
-  const componentStyle = {
+  const componentLoadingOriginalStyle = {
     color: 'yellow',
+  };
+
+  const componentLoadingStyle = {
+    color: 'red',
   };
 
   return (
@@ -14,8 +19,12 @@ function App() {
         <p>
           App
         </p>
-        <div style={componentStyle}>
+        <div style={componentLoadingOriginalStyle}>
           {/* Componente original */}
+          <LoadingOriginal title="Hello Word"/>
+        </div>
+        <div style={componentLoadingStyle}>
+          {/* Componente Hook */}
           <Loading title="Hello Word"/>
         </div>
       </header>
