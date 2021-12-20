@@ -1,15 +1,18 @@
 # Project
 
+![App](screen.png)
+
 ## Author
 
 Angel G.
 
 ## Instructions
 
-To create a development build
+### To create a development build
 
 npm run start
 
-To create a production build 
+### To create a production build 
 
 npm run build
+

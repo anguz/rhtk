@@ -25,7 +25,7 @@ function App() {
         </div>
         <div style={componentLoadingStyle}>
           {/* Componente Hook */}
-          <Loading title="Hello Word"/>
+          <Loading title="Hello Word - Hook version -"/>
         </div>
       </header>
     </div>
