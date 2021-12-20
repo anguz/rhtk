@@ -21,11 +21,11 @@ function App() {
         </p>
         <div style={componentLoadingOriginalStyle}>
           {/* Componente original */}
-          <LoadingOriginal title="Hello Word"/>
+          <LoadingOriginal title="Hello World"/>
         </div>
         <div style={componentLoadingStyle}>
           {/* Componente Hook */}
-          <Loading title="Hello Word - Hook version -"/>
+          <Loading title="Hello World - Hook version -"/>
         </div>
       </header>
     </div>
